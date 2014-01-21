@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="key, words" />
+<meta name="author" content="Bawyka Taras" />
+<link type="text/css" rel="stylesheet" href="public/css/style.css" media="all" />
+<link href="favicon.ico" rel="icon" type="image/x-icon" />
+<script type="text/javascript" src="public/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	
+	var w_w = $(window).width(), rec_w = $('.rectangle').width(), w_h = $(window).height(), rec_h = $('.rectangle').height();
+	
+	$('.rectangle').css('margin-left', w_w/2 - rec_w/2 + 'px');
+	$('.rectangle').css('margin-top', w_h/2 - rec_h/2 + 'px');
+
+});
+</script>
+<title> Yellow Circles </title>
+</head>
+<body>
+	<div class="rectangle">
+		<div class="circle left"></div>
+		<div class="circle right"></div>
+	</div>
+</body>
+</html>

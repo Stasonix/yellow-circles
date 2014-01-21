@@ -1,0 +1,29 @@
+* { margin: 0; padding: 0; }
+html,body { width: 100%; height: 100%; background: #fff; }
+html,body { overflow: hidden; }
+.circle {
+	background: yellow;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	float: left;
+	position: absolute;
+}
+
+.rectangle {
+	width: 400px;
+	height: 400px;
+	position: relative;
+}
+
+.circle.left { 
+	left: -300px;
+	width: 100%;
+	height: 100%;
+}
+.circle.right {
+	right: -300px;
+	width: 100%;
+	height: 100%;
+}
